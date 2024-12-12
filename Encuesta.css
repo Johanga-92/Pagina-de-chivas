@@ -1,0 +1,67 @@
+body{
+    background-image: url("https://www.solofondos.com/wp-content/uploads/2023/05/wp4537666.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+/*— estilo para el título del formulario —*/
+h1{
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 15px;
+    color: #ffffff;
+    display: block;
+    font-family: calibri;
+    font-size: 20px;
+    padding: 5px;
+    text-shadow: 0px 0px 0px #0077ff;
+    width: 433px;
+}
+
+/*— estilo para las etiquetas del formulario —*/
+label {
+    color: #000000;
+    display: inline-block;
+    font-family: calibri;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 3px;
+    padding: 3px;
+    width: 100px;
+}
+
+    
+/*—– estilos visuales de los elementos input—–*/   
+input{ 
+height:25px; 
+width:220px; 
+padding:5px 8px;
+border:5px solid #080075;
+box-shadow: 0px 0px 2px #ff0404, 0 10px 15px #ffffff inset;
+border-radius:3px;
+color: #000000;
+font-size: 12px;
+padding-right:30px;
+-moz-transition: padding 2s; 
+-webkit-transition: padding 2s; 
+-o-transition: padding 2s;
+transition: padding 2s;
+}
+input:focus{
+background: #001aff; 
+border:1px solid #700000; 
+box-shadow: 0 0 3px #00ff6a; 
+padding-right:80px;
+}
+ 
+/* === Estilos de Validacion === */ 
+ 
+input:required:valid{
+box-shadow: 0 0 5px #1d20d8;
+border-color: #170870;
+}
+.contact_form input:focus:invalid {
+box-shadow: 0 0 5px #da2424;
+border-color: #990606
+}
+/* === Estilos del boton de Envio === */
